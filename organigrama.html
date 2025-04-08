@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./iconos/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/organigrama.css" />>
+
+    <!-- Incluir los scripts necesarios -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <title>Organigrama - Infocivil</title>
+  </head>
+  <body>
+    
+
+    <section>
+      <div id="wrapper">
+        <div class="contenedor">
+          <ol class="organizational-chart">
+            <li>
+              <div>
+                <h1
+                  class="nivel-presidencia"
+                  data-bs-toggle="modal"
+                  data-bs-target="#presidencia"
+                >
+                  Presidencia <br />
+                  Tribunal de Superintendencia
+                </h1>
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="presidencia"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel1"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2
+                          class="modal-title fs-5 w-100 text-center fw-bold"
+                          id="exampleModalLabel1"
+                        >
+                          TRIBUNAL DE SUPERINTENDENCIA
+                        </h2>
+
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          <span class="fw-bold">Presidente: </span>Dr. Omar Luis
+                          Díaz Solimine
+                        </p>
+                        <p>
+                          <span class="fw-bold">Vicepresidente 1 : </span>Dr.
+                          Gabriel Gerardo Rolleri
+                        </p>
+                        <p>
+                          <span class="fw-bold">Vicepresidente 2 : </span>Dra.
+                          Marisa Sorini
+                        </p>
+                      </div>
+                      <div>
+                        <h3
+                          class="fs-5 w-100 text-center fw-bold border-bottom"
+                        >
+                          Secretaría de Presidencia
+                        </h3>
+                        <p>
+                          <span class="fw-bold">Prosecretario/a Admin.: </span
+                          >Dr. Gustavo Santoro
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fin Modal -->
+              </div>
+              <ol class="espacio-para-privada">
+                <li>
+                  <div>
+                    <h2
+                      class="nivel-secretaria"
+                      data-bs-toggle="modal"
+                      data-bs-target="#superIntendencia"
+                    >
+                      Secretaría de Superintendencia
+                    </h2>
+                    <!-- Modal -->
+                    <div
+                      class="modal fade"
+                      id="superIntendencia"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h2
+                              class="modal-title fs-5 w-100 text-center fw-bold"
+                              id="exampleModalLabel"
+                            >
+                              SECRETARÍA DE SUPERINTENDENCIA
+                            </h2>
+
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>
+                              <span class="fw-bold">
+                                Secretario de Cámara:</span
+                              >
+                              Dr. Javier Horacio Rosenbrock Lambois
+                            </p>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.:</span
+                              >
+                              Sra. María Mercedes Perramón
+                            </p>
+                          </div>
+                          <div>
+                            <h3
+                              class="fs-5 w-80 text-center fw-bold border-bottom"
+                            >
+                              Prosecretaría de Superintendencia
+                            </h3>
+                            <p>
+                              <span class="fw-bold"
+                                >Secretaria de Juzgado: </span
+                              >Dra. Cynthia Roxana Holzmann (adscripta)
+                            </p>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Sra. María Mercedes Perramón
+                            </p>
+                            <h3
+                              class="fs-5 w-80 text-center fw-bold border-bottom"
+                            >
+                              Oficina de Recepción de Cédulas (Talcahuano)
+                            </h3>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Sra. Lucrecia Noro Villagra
+                            </p>
+                            <h3
+                              class="fs-5 w-80 text-center fw-bold border-bottom"
+                            >
+                              Oficina de Recepción de Cédulas (Uruguay)
+                            </h3>
+                            <p>
+                              <span class="fw-bold">Jefe de Despacho: </span
+                              >Dra. Viviana Paleari
+                            </p>
+                            <h3
+                              class="fs-5 w-80 text-center fw-bold border-bottom"
+                            >
+                              Oficina de Recepción de Cédulas (Inmigrantes)
+                            </h3>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Sra. Mariana Paez de la Torre
+                            </p>
+                            <h3
+                              class="fs-5 w-80 text-center fw-bold border-bottom"
+                            >
+                              Legalizaciones (Centro)
+                            </h3>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Sra. Elisabet Soledad Carames
+                            </p>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Sra. María Sara Perramón
+                            </p>
+                            <h3
+                              class="fs-5 w-80 text-center fw-bold border-bottom"
+                            >
+                              Legalizaciones Inmigrantes
+                            </h3>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Dra. Sandra Lucía D’Alessandro
+                            </p>
+                            <h3
+                              class="fs-5 w-80 text-center fw-bold border-bottom"
+                            >
+                              Unidad Administrativa Común (UAC) Centro
+                            </h3>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Dr. Alberto Nuñez
+                            </p>
+                            <h3
+                              class="fs-5 w-80 text-center fw-bold border-bottom"
+                            >
+                              Unidad Administrativa Común (UAC) Inmigrantes
+                            </h3>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Dra. Andrea Marino
+                            </p>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Dr. Carlos Cabral Hunter
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Fin modal -->
+                  </div>
+                  <ol>
+                    <li>
+                      <div>
+                        <h3 class="nivel-oficina">Prosecretaría N° 1</h3>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <h3 class="nivel-oficina">Oficina de Cédulas</h3>
+                      </div>
+                      <ol>
+                        <li>
+                          <div>
+                            <h4 class="nivel-sede">Sede Centro</h4>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h4 class="nivel-sede">Sede Inmigrantes</h4>
+                          </div>
+                        </li>
+                      </ol>
+                    </li>
+                    <li>
+                      <div>
+                        <h3 class="nivel-oficina">Legalizaciones</h3>
+                      </div>
+                      <ol>
+                        <li>
+                          <div>
+                            <h4 class="nivel-sede">Sede Centro</h4>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h4 class="nivel-sede">Sede Inmigrantes</h4>
+                          </div>
+                        </li>
+                      </ol>
+                    </li>
+                    <li>
+                      <div>
+                        <h3 class="nivel-oficina">
+                          Unidad Administrativa Común (UAC)
+                        </h3>
+                      </div>
+                      <ol>
+                        <li>
+                          <div>
+                            <h4 class="nivel-sede">Sede Centro</h4>
+                          </div>
+                        </li>
+                        <li></li>
+                        <li>
+                          <div>
+                            <h4 class="nivel-sede">Sede Inmigrantes</h4>
+                          </div>
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                </li>
+
+                <li>
+                  <div>
+                    <h2
+                      class="nivel-secretaria"
+                      data-bs-toggle="modal"
+                      data-bs-target="#secPersonal"
+                    >
+                      Secretaría de Personal y Gestión de Recursos
+                    </h2>
+                    <!-- Modal -->
+                    <div
+                      class="modal fade"
+                      id="secPersonal"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel2"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h2
+                              class="modal-title fs-5 w-100 text-center fw-bold"
+                              id="exampleModalLabel2"
+                            >
+                              SECRETARÍA DE PERSONAL Y GESTIÓN DE RECURSOS
+                            </h2>
+
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>
+                              <span class="fw-bold">Prosec. de Cámara: </span
+                              >Dra. Valeria V. Vertzner
+                            </p>
+                            <p>
+                              <span class="fw-bold">Prosec. de Cámara: </span
+                              >Dra. Natalia Andrea Godoy
+                            </p>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Dra. Sandra Silvana Gutiérrez
+                            </p>
+                          </div>
+                          <div>
+                            <h3
+                              class="fs-5 w-100 text-center fw-bold border-bottom"
+                            >
+                              Habilitación
+                            </h3>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretaria Habilitada: </span
+                              >C.P.N. María Soledad Alonso
+                            </p>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretaria Subhabilitada: </span
+                              >Dra. Ana Isabel Sansó Guerrero (adscripta) (en la
+                              Sec. de RRHH)
+                            </p>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario Subhabilitado: </span
+                              >C.P.N. Diego Pablo Ferrante
+                            </p>
+                            <h3
+                              class="fs-5 w-100 text-center fw-bold border-bottom"
+                            >
+                              Intendencia
+                            </h3>
+                            <p>
+                              <span class="fw-bold">Intendente: </span>Arq.
+                              Eduardo Gabriel Arrosagaray
+                            </p>
+                            <p>
+                              <span class="fw-bold">Subintendente: </span>Arq.
+                              Marcelo Rafael De Rosa
+                            </p>
+                            <h3
+                              class="fs-5 w-100 text-center fw-bold border-bottom"
+                            >
+                              Unidad Operativa de Finalización de Causas
+                              (UOFICC)
+                            </h3>
+                            <p>
+                              <span class="fw-bold">Directora General: </span
+                              >Dra. Marcela Cecilia García
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Fin modal -->
+                  </div>
+                  <ol>
+                    <li>
+                      <div>
+                        <h3 class="nivel-oficina">Habilitación</h3>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <h3 class="nivel-oficina">Intendencia</h3>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <h3 class="nivel-oficina">
+                          Unidad Operativa de Fiscalización de Causas Civiles
+                          (UOFICC)
+                        </h3>
+                      </div>
+                    </li>
+                  </ol>
+                </li>
+
+                <li>
+                  <div>
+                    <h2
+                      class="nivel-secretaria"
+                      data-bs-toggle="modal"
+                      data-bs-target="#secJuris"
+                    >
+                      Secretaría de Documentación y Jurisprudencia
+                    </h2>
+                    <!-- Modal -->
+                    <div
+                      class="modal fade"
+                      id="secJuris"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel4"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h2
+                              class="modal-title fs-5 w-100 text-center fw-bold"
+                              id="exampleModalLabel4"
+                            >
+                              SECRETARÍA DE DOCUMENTACIÓN Y JURISPRUDENCIA
+                            </h2>
+
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>
+                              <span class="fw-bold">Secretaria de Cámara: </span
+                              >Dra. Claudia Beatriz Mainard
+                            </p>
+                            <p>
+                              <span class="fw-bold">Prosec. de Cámara: </span
+                              >Dr. Hilario Julio Guerendiain
+                            </p>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Sr. Fernando Omar Ameconi
+                            </p>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Dra. Marina Verónica Craviolatti
+                            </p>
+                          </div>
+                          <div>
+                            <h3
+                              class="fs-5 w-100 text-center fw-bold border-bottom"
+                            >
+                              Centro de Datos Informatizados
+                            </h3>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Dr. José Daniel Mendelewicz
+                            </p>
+                            <h3
+                              class="fs-5 w-100 text-center fw-bold border-bottom"
+                            >
+                              Biblioteca Departamental Lavalle
+                            </h3>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Lic. Marcela Beatriz Dottori
+                            </p>
+                            <h3
+                              class="fs-5 w-100 text-center fw-bold border-bottom"
+                            >
+                              Biblioteca Departamental Inmigrantes
+                            </h3>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Lic. Anabella Cynthia Manoukian
+                            </p>
+                            <p>
+                              <span class="fw-bold">Sec. de Cámara: </span>Dr.
+                              Mariano Pereira Arandia
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Fin modal -->
+                  <ol>
+                    <li>
+                      <div>
+                        <h3 class="nivel-oficina">
+                          Centro de datos Informatizados
+                        </h3>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <h3 class="nivel-oficina">Biblioteca</h3>
+                      </div>
+                      <ol>
+                        <li>
+                          <div>
+                            <h4 class="nivel-sede">Sede Centro</h4>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h4 class="nivel-sede">Sede Inmigrantes</h4>
+                          </div>
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                </li>
+
+                <li>
+                  <div>
+                    <h2
+                      class="nivel-secretaria"
+                      data-bs-toggle="modal"
+                      data-bs-target="#secInfo"
+                    >
+                      Secretaría de Informática
+                    </h2>
+                    <!-- Modal -->
+                    <div
+                      class="modal fade"
+                      id="secInfo"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel5"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h2
+                              class="modal-title fs-5 w-100 text-center fw-bold"
+                              id="exampleModalLabel5"
+                            >
+                              SECRETARÍA DE INFORMÁTICA
+                            </h2>
+
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>
+                              <span class="fw-bold">Secretario de Cámara: </span
+                              >Dr. Mariano Méstola
+                            </p>
+                          </div>
+                          <div>
+                            <h3
+                              class="fs-5 w-100 text-center fw-bold border-bottom"
+                            >
+                              Mesa de Primera Instancia
+                            </h3>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin. ad-hoc: </span
+                              >Dra. Valeria Graciela Noziglia
+                            </p>
+                          </h3>
+                          <p>
+                            <span class="fw-bold"
+                              >Prosecretario/a Admin. ad-hoc: </span
+                            >Sra. Andrea Valeria Luca 
+                          </p>
+                            <h3
+                              class="fs-5 w-100 text-center fw-bold border-bottom"
+                            >
+                              Mesa de Segunda Instancia
+                            </h3>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Dr. Matías Ardizzone
+                            </p>
+                            <h3
+                              class="fs-5 w-100 text-center fw-bold border-bottom"
+                            >
+                              Oficina de Sistemas y Tecnología
+                            </h3>
+                            <p>
+                              <span class="fw-bold">Subsecretario Adm.: </span
+                              >Lic. Julian Vila (contratado)
+                            </p>
+                            <p>
+                              <span class="fw-bold">Prosec. Jefe: </span>Sr.
+                              Guillermo Marcelo Franco (interino)
+                            </p>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Sra. María Isabel Beccar Varela
+                            </p>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.:
+                              </span>
+                              Julieta María Borgna (interina)
+                            </p>
+                            <p>
+                              <span class="fw-bold"
+                                >Prosecretario/a Admin.: </span
+                              >Dr. Carlos Gabriel Medina
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Fin modal -->
+                  </div>
+                  <ol>
+                    <li>
+                      <div>
+                        <h3 class="nivel-oficina">Adjudicación de Causas</h3>
+                      </div>
+                      <ol>
+                        <li>
+                          <div>
+                            <h4 class="nivel-sede">Mesa de 1ra</h4>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h4 class="nivel-sede">Mesa de 2da</h4>
+                          </div>
+                        </li>
+                      </ol>
+                    </li>
+                    <li>
+                      <div>
+                        <h3 class="nivel-oficina">
+                          Oficina de Sistemas y Tecnología (SYTEC)
+                        </h3>
+                      </div>
+                      <ol>
+                        <li>
+                          <div>
+                            <h4 class="nivel-sede">Sede Centro</h4>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h4 class="nivel-sede">Sede Inmigrantes</h4>
+                          </div>
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                </li>
+
+                <li>
+                  <div>
+                    <h2
+                      class="nivel-secretaria"
+                      data-bs-toggle="modal"
+                      data-bs-target="#secAcceso"
+                    >
+                      Secretaría de Acceso a la Justicia y Enlace
+                      Interinstitucional
+                    </h2>
+                    <!-- Modal -->
+                    <div
+                      class="modal fade"
+                      id="secAcceso"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel6"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h2
+                              class="modal-title fs-5 w-100 text-center fw-bold"
+                              id="exampleModalLabel6"
+                            >
+                              SECRETARÍA ACCESO A LA JUSTICIA Y ENLACE
+                              INTERINSTITUCIONAL
+                            </h2>
+
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>
+                              <span class="fw-bold">Secretario de Cámara: </span
+                              >Dr. Gastón Alexis Slipak
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Fin modal -->
+                  </div>
+                  <ol>
+                    <li>
+                      <div>
+                        <h3 class="nivel-oficina">
+                          Servicio de asistencia psicológica
+                        </h3>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <h3 class="nivel-oficina">Multipuertas</h3>
+                      </div>
+                      <!-- Se agregan sedes de multipuertas -->
+                      <ol>
+                        <li>
+                          <div>
+                            <h4 class="nivel-sede">Sede Lavalle</h4>
+                          </div>
+                        </li>
+                        <li>
+                          <div>
+                            <h4 class="nivel-sede">Sede Inmigrantes</h4>
+                          </div>
+                        </li>
+                      </ol>
+                    </li>
+                    <li>
+                      <div>
+                        <h3 class="nivel-oficina">
+                          Cuerpo Interdisciplinario Forense (CIF)
+                        </h3>
+                      </div>
+                    </li>
+                  </ol>
+                </li>
+
+                <li>
+                  <div>
+                    <h2
+                      class="nivel-secretaria"
+                      data-bs-toggle="modal"
+                      data-bs-target="#secRecurso"
+                    >
+                      Secretaría de Recursos Humanos, Bienestar Laboral y
+                      Capacitación
+                    </h2>
+                    <!-- Modal -->
+                    <div
+                      class="modal fade"
+                      id="secRecurso"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel7"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h2
+                              class="modal-title fs-5 w-100 text-center fw-bold"
+                              id="exampleModalLabel7"
+                            >
+                              SECRETARÍA DE RECURSOS HUMANOS, BIENESTAR LABORAL
+                              Y CAPACITACIÓN
+                            </h2>
+
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>
+                              <span class="fw-bold"
+                                >Secretario de Cámara:
+                              </span>
+                              Dr. Hernán Pablo Santoro
+                            </p>
+                            <div>
+                              <h3
+                                class="fs-5 w-100 text-center fw-bold border-bottom"
+                              >
+                                Recursos Humanos
+                              </h3>
+                              <p>
+                                <span class="fw-bold"
+                                  >Prosecretario/a Admin.: </span
+                                >Lic. María Natalia Da Silva
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Fin modal -->
+                  </div>
+                  <ol>
+                    <li>
+                      <div>
+                        <h3 class="nivel-oficina">Recursos Humanos</h3>
+                      </div>
+                    </li>
+                  </ol>
+                </li>
+              </ol>
+            </li>
+          </ol>
+
+          <!-- 
+            Secretaría privada 
+        <div class="horizontal-line"></div>
+
+        <div class="privada">
+            <h2 class="secretaria-privada">Secretaría Privada de Presidencia</h2>
+        </div>
+        --></div>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <p>Desarrollado por Sytec - Oficina de Sistemas y Tecnología</p>
+        <p>Secretaría de Informática</p>
+        <p>Cámara Nacional de Apelaciones en lo Civil</p>
+      </div>
+      <div>
+        <img
+          src="https://cncivil04.pjn.gov.ar/prorrateador/static/media/logoSytec.0682c374e68f91fd3a6c.png"
+          alt="Sytec logo"
+          width="150px"
+        />
+      </div>
+    </footer>
+    <script src="/js/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+   
+  </body>
+</html>
