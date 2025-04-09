@@ -30,19 +30,16 @@ body {
   margin-right: auto;
   max-width: 80%;
 }
+
 .cursorInfo {
   cursor: help;
 }
+
 div.contenedor {
   float: center;
   padding: 1em;
   width: 100%;
   font-family: "Montserrat", sans-serif;
-}
-
-.nivel-presidencia:hover,
-.nivel-secretaria:hover {
-  cursor: help;
 }
 
 h1.nivel-presidencia,
@@ -51,6 +48,7 @@ h3.nivel-oficina,
 h4.nivel-sede {
   color: white;
   text-align: center;
+  cursor: help;
 }
 
 h1.nivel-presidencia {
@@ -164,7 +162,7 @@ ol.organizational-chart li > div {
 
 /*NIVEL PRESIDENCIA*/
 ol.organizational-chart > li > div {
-  background-color: oklch(50.8% 0.118 165.612);
+  background-color: #4575a9;
   margin-right: 1em;
 }
 
@@ -205,17 +203,17 @@ ol.organizational-chart > li > ol:after {
 }
 
 ol.organizational-chart > li > ol > li > div {
-  background-color: oklch(59.6% 0.145 163.225);
+  background-color: #4575a9;
 }
 
 /*** NIVEL TERCERO ***/
 ol.organizational-chart > li > ol > li > ol > li > div {
-  background-color: oklch(69.6% 0.17 162.48);
+  background-color: #73a0d1;
 }
 
 /*** NIVEL CUARTO ***/
 ol.organizational-chart > li > ol > li > ol > li > ol > li > div {
-  background-color: oklch(76.5% 0.177 163.223);
+  background-color: #73a0d1;
 }
 
 /*** NIVEL QUINTO ***/
@@ -238,6 +236,34 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #4271b3;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 10px;
+  width: 100%;
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+footer div p {
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
 }
 
 /*** MEDIA QUERIES ***/
