@@ -30,7 +30,9 @@ body {
   margin-right: auto;
   max-width: 80%;
 }
-
+.cursorInfo {
+  cursor: help;
+}
 div.contenedor {
   float: center;
   padding: 1em;
