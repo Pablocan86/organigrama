@@ -240,43 +240,10 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
   background-color: #4271b3;
 }
 
-/* FOOTER */
-
-footer {
-  margin-top: 10px;
-  width: 100%;
-  gap: 30px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-footer div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-}
-
-footer div p {
-  font-weight: 600;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
 /*** MEDIA QUERIES ***/
 @media (max-width: 768px) {
   #wrapper {
     margin-top: 140px;
-  }
-
-  footer {
-    flex-direction: column;
-    justify-content: center;
   }
 }
 @media only screen and (min-width: 64em) {
